@@ -52,6 +52,6 @@ python finetune.py
 
 ### 7. chat api
 本來的模型是直接從 hugging face 取得的
-autotrain的code在： miniconda3/lib/python3.12/site-packages/autotrain
+autotrain的code在 vm 中： miniconda3/lib/python3.12/site-packages/autotrain
 getModel 在 autotrain/trainers/clm
 
