@@ -32,12 +32,12 @@ if isinstance(self.args.block_size, str):
 self.args.backend = 'local' 
 ```
 3. autotrain/trainers/cli/train_clm_sft.py
-註解字典格式的
+註解字典格式的 ```
     trainer_args = dict(
        args=args,
        model=model,
         callbacks=callbacks,
-    )
+    ) ```
     
 修改為 ```args = SFTConfig(**training_args)```
 
